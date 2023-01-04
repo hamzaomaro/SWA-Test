@@ -2,6 +2,13 @@
     "navigationFallback": {
         "rewrite": "/index.html"
     },
+
+    "routes":[
+        {
+        "route": "/login",
+        "redirect": "/.auth/login/github"
+        }
+    ],
     
     "auth": {
         "identityProviders": {
@@ -13,6 +20,8 @@
               "clientSecretSettingName": "AZURE_CLIENT_SECRET"
             }
           }
-        }
+        },
+        "login": "https://gray-forest-078315603.2.azurestaticapps.net/.auth/login/aad/callback",
+        "logout": "https://gray-forest-078315603.2.azurestaticapps.net/.auth/logout/aad/callback"
       }
 }
