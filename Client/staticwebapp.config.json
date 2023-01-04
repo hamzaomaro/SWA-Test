@@ -6,7 +6,7 @@
     "routes":[
         {
         "route": "/login",
-        "redirect": "/.auth/login/github"
+        "redirect": "/.auth/login"
         }
     ],
     
