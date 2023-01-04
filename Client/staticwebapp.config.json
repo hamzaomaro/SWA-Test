@@ -25,8 +25,6 @@
             "openIdIssuer": "https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db4772f988bf-86f1-41af-91ab-2d7cd011db47",
             "clientIdSettingName": "AZURE_CLIENT_ID",
             "clientSecretSettingName": "AZURE_CLIENT_SECRET"
-        },
-        "login": "https://gray-forest-078315603.2.azurestaticapps.net/.auth/login/aad/callback",
-        "logout": "https://gray-forest-078315603.2.azurestaticapps.net/.auth/logout/aad/callback"
+        }
       }
 }
