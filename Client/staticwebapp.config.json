@@ -21,11 +21,6 @@
               "clientSecretSettingName": "AZURE_CLIENT_SECRET"
             }
           }
-        },
-        "aad": {
-            "openIdIssuer": "https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47",
-            "clientIdSettingName": "AZURE_CLIENT_ID",
-            "clientSecretSettingName": "AZURE_CLIENT_SECRET"
         }
       }
 }
