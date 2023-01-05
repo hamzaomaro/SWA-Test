@@ -1,9 +1,5 @@
 {
-    "navigationFallback": {
-        "rewrite": "/index.html"
-    },
-
-    "routes":[
+        "routes":[
         {
             "route": "*",
             "allowedRoles": [ "authenticated" ]
